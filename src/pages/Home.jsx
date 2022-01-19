@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from 'components/Header';
+import Courses from 'components/Courses';
 
 function Home() {
   return (
-    <div>
-      <h1>hello this is home page</h1>
-    </div>
+    <>
+      <Header />
+      <Courses />
+    </>
   );
 }
 

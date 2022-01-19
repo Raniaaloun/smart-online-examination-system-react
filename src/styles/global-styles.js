@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import background from 'assets/image.png';
+import background from 'assets/creative.jpg';
 
 const GlobalStyle = createGlobalStyle`
 *,
@@ -9,11 +9,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
 body {
-  background-image: url(${background});
   margin: 0;
-  background-repeat: no-repeat;
-  background-size: 1366px;
-
+  background-image: url(${background});
+  background-size: cover;
 } 
 `;
 
